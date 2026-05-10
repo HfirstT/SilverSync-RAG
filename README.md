@@ -26,3 +26,23 @@ SilverSync-RAG/
 ├── ss_service.py           # 핵심 RAG 엔진 및 검색 함수
 ├── requirements.txt        # 의존성 패키지 목록
 └── README.md               # 프로젝트 가이드
+
+⚙️ How to Run
+의존성 설치
+
+Bash
+pip install -r requirements.txt
+환경 변수 설정
+.env 파일을 생성하고 아래 정보를 입력합니다.
+
+Plaintext
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_anon_key
+Ollama 실행
+
+Bash
+ollama run gemma:4b
+서비스 가동
+
+Bash
+python ss_service.py
