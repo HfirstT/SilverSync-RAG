@@ -31,7 +31,7 @@ SilverSync-RAG/
 의존성 설치
 
 ## Bash
-pip install -r requirements.txt
+- **pip install -r requirements.txt
 환경 변수 설정
 .env 파일을 생성하고 아래 정보를 입력합니다.
 
