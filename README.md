@@ -26,7 +26,6 @@ SilverSync-RAG/
 ├── ss_service.py           # 핵심 RAG 엔진 및 검색 함수
 ├── requirements.txt        # 의존성 패키지 목록
 └── README.md               # 프로젝트 가이드
-```
 
 ⚙️ How to Run
 의존성 설치
