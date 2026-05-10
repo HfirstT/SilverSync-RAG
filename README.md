@@ -28,14 +28,13 @@ SilverSync-RAG/
 └── README.md               # 프로젝트 가이드
 ```
 ## ⚙️ How to Run
-의존성 설치
+## 의존성 설치
+Bash
+- pip install -r requirements.txt
+- 환경 변수 설정
 
-## Bash
-- **pip install -r requirements.txt
-환경 변수 설정
-.env 파일을 생성하고 아래 정보를 입력합니다.
+## .env 파일을 생성하고 아래 정보를 입력합니다.
 
-## Plaintext
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_anon_key
 Ollama 실행
@@ -44,5 +43,5 @@ Ollama 실행
 ollama run gemma:4b
 서비스 가동
 
-Bash
+## Bash
 python ss_service.py
