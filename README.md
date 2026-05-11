@@ -21,8 +21,8 @@
 ```text
 SilverSync-RAG/
 ├── superbaseDB 설정/       # Supabase 초기화 및 임베딩 로직
-├── mongoDB 설정/           # 기존 데이터 전환 및 테스트 스크립트
     └── ss_service_2.py           # 핵심 RAG 엔진 및 검색 함수
+├── mongoDB 설정/           # 기존 데이터 전환 및 테스트 스크립트
 ├── data_plus/              # 심부전 등 주요 진료지침 (JSON)
 ├── requirements.txt        # 의존성 패키지 목록
 └── README.md               # 프로젝트 가이드
