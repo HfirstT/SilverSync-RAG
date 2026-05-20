@@ -8,7 +8,6 @@
 - **Vector Search Optimization**: Supabase `pgvector`와 `HNSW` 인덱스 전략을 활용한 고속 벡터 검색.
 - **Data Isolation Strategy**: 대용량 DUR 데이터를 배제하고 의료 지침(PDF/JSON)만 추출하는 `VIEW` 기반 검색 최적화.
 - **Natural Language Query**: 사용자의 질문에 대해 로컬 LLM(Ollama: Gemma 4b)이 지침 기반의 신뢰도 높은 답변 생성.
-- **MongoDB-Style Output**: 검색 결과를 익숙한 JSON 객체 형태로 가공하여 제공.
 
 ## 🛠 Tech Stack
 - **Language**: Python 3.10+
